@@ -1,0 +1,66 @@
+# 주석 = 메모
+
+
+# 계산 - 연산자들
+# 8 + 9
+# 2 - 7
+# 4 * 5
+# 5 / 2
+# 5 % 2# 나머지 연산자
+# 5 // 2# 몫 연산자
+# 4 ** 3# 제곱 연산자
+
+# 출력함수 print
+# print (출력 내용)
+
+#print(8 * 9)
+#print(2 - 7)
+#print(8 // 7)
+# 변수 = 상자
+
+#변수의 이름 = 담을 값
+# a = 3
+# b = 7
+# a = c
+# b = d
+# print(a)
+# print(b)
+# a = 3
+# b = 6
+# c = 9
+# d = c
+# c = b
+# b = a
+# a = d
+# print(a,b,c)
+
+# 문자열
+
+# print("hello")
+
+
+# 문자열 계산
+# a = "hello"
+# b = " python"
+# c = a + b + b + a
+# print(a, b)
+# print(a + b, c)
+
+# 문자열과 정수과의 계산 -> *
+a = "welcome"
+print(a * 7)
+
+
+# 자료형
+# 정수형 : int
+# 실수형 : float
+# 문자열 : str
+# bool : bool
+
+
+# 자료형을 알려주는 함수 type
+# type(값)
+print(type(13))
+print(type(3.1))
+print(type("hi"))
+print(type(True))
