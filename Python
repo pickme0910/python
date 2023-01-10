@@ -1,0 +1,98 @@
+# string = "hello Python"h
+# 인덱싱(indexing)
+# print(string[-1])
+# 슬라이싱(slicing)
+# print(string[::2])
+# print(string)
+
+# a = "hello"
+# b = "Python"
+# print(a,b)
+# a = "Hello"
+# b = " Python"
+# c = a + ' ' + b
+# print(c)
+#
+# # 문자열의 길이 == 문자열의 개수
+# print(len(a))
+
+# 문자열 관련 함수(Member Method)
+string = "Hello Python"
+# 해당 문자열에서 내가 찾는 문자열이 몇게 있는지를 알려주는 count()
+# print(string.count('o'))
+# find(str) = 괄호안의 뮨자열이 몇번제 인덱스에서 가장먼저 나오는지를 알려준다.
+# 단, 없는 문자열의 찾을경우 -1을 리턴한다.
+# print(string.find('Python'))
+# print(11)
+# print(string.index('x'))
+
+# replace(old,new) = 해당 문자열에서 old문자를 new문자로 치환한 값을 리턴한다.
+# print(string.replace('Hello' , 'Bye'))
+# s = "dkfkfkfk"
+# print(string.upper())# 해당문자를 대문자로 변환한 값을 리턴
+# print(string.lower())# 해당문자를 소문자로 변환한 값을 리턴
+# print(string[0].isupper())
+# print(string[0].islower())
+# print(s.isdigit())# 숮자값이 들어잇는 문자열 자료형일경우 true, 아니면 fulse
+# print(s.isalnum())#
+# print(s.isalpha())# 영문자가 들어있는 쟈료형일 경우 true, 아니면 fulse
+
+# split(str)# 부분 문자열을 기준으로 해당 문자열을 나누어준 값을 리턴한다.
+# 단, 괄호안에 아무것도 넣지않은 경우 공백을 기준으로 나누어준다.
+# string = "Hello Python"
+# # print(string.split(' '))
+# # print(string.split())
+# a = 'a'
+# # 'str'.join(string)
+# print('/'.join(string))
+
+# apple = "...ap.ple...."
+
+# print(apple.lstrip('.'))
+# print(apple.strip('.'))
+# print(apple.rstrip('.'))
+
+# letters = 'Python'
+# print(letters[0], letters[2]) # p t
+# license_plate =  "24salkdjflaksdfl가 2210"
+# print(license_plate[-4:])
+# string = "홀짝홀짝홀짝"
+#
+# print(string[1:7:2]) # "짝짝짝"
+# string = "PYTHON"
+#
+# print(string[::-1])
+
+# phone_number = "010-1111-2222"
+#
+# print(phone_number.replace('-', ''))  #010-1111-2222
+
+# url = "www.naver.co.kr"
+# print(url.split('.')[-1]) # "kr"
+
+# string = "Hello"
+# string = string.replace('H','D')
+# print(string)
+
+# string = 'abcd'
+# string = string.replace('b','B')
+# print(string)
+
+# a = "3"
+# b = "4"
+# print(a + b)
+
+# T1 = "python"
+# T2 = "java"
+# T3 = (T1 + ' ' + T2 + ' ')* 4
+# print(T3)
+
+name = "이건호"
+age = 15
+# 출력값 : 제 이름은 이건호이고, 나이는 15살입니다.
+# % - formatting
+#print("제 이름은 %s이고, 나이는 %d살입니다." %(name,age))
+# format()
+# print("제 이름은 {0}이고, 나이는 {1}살입니다.".format(name,age))
+# f-string
+print(f"제 이름은 {name}이고, 나이는 {age}살입니다.")
