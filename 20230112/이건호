@@ -1,0 +1,74 @@
+문자열 복습
+# month = 1
+# day = 12
+# date = "목요일"
+# #오늘은 1월 12일 목요일입니다.
+
+# print("오늘은 %d월 %d일 %s입니다."%(month,day,date))
+
+# print("오늘은 {0}월 {1}일 {2}입니다.".format(month,day,date))
+
+# print(f"오늘은 {month}월 {day}일 {date}입니다.")
+
+# a = '12345'
+# a = int(a)
+# print(a)
+# print(type(a))
+
+# b = 12345
+# b = str(b)
+# print(b)
+# print(type(b))
+
+# a = 123.45
+# a = int(a)
+# print(a)
+# print(type(a))
+
+#체스말 체크
+# a = input().split()
+# king = int(a[0])
+# queen = int(a[1])
+# rook = int(a[2])
+# bishop = int(a[3])
+# knight = int(a[4])
+# pawn = int(a[5])
+# print(1-king,1-queen,2-rook,2-bishop,2-knight,8-pawn)
+
+# "리스트(list)"
+
+# a = ['a',12345,'sfjkalsdj',3.141592]
+# print(a[2][1])
+# 리스트 a에서 f라는 문자열 뽑아내기
+
+# a = [1,2,3,[4,5,[6,7],8],9]
+# # print(a[3][2][1])
+# print(a[::-1])
+# a = [4,2,3,1]
+# 리스트의 수정 a => [4,2,3,6]
+# a[3] = 6
+# print(a)
+
+# 리스트의 삭제 a => [4,3,6]
+# del a [1]
+# print(a)
+# 리스트의 연산
+# a = [4,2,3,1]
+# b = [5,6]
+# print(a + b)
+# print(b * 2)
+# print(a[0] + b[0])
+# print(b[1] * 2)
+
+# 관련함수
+# a = [4,2,3,1]
+# b = [5,6]
+# a.extend(b)# extend:확장
+# a.insert(2,'a')insert:원하는 위치에 삽입
+# a.append(b) # append(): 괄호안에 값을 리스트의 맨 마지막에 추가
+# a.remove(2)#remove:원하는 값을 삭제
+# print(a.pop(1))# 추출
+# a.reverse()# 순서반전
+# a.sort()# 오름차순로 변경
+# a.sort(reverse=True)# 내림 차순으로 변경
+# print(a)
